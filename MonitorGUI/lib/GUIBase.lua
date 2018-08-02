@@ -1,4 +1,6 @@
 
+local guiBase = {}
+
 --Requirements
 local colors = require "colors"
 
@@ -11,4 +13,4 @@ function GetVersion()
 	return _version
 end
 
-return colors
+return guiBase
